@@ -1,0 +1,62 @@
+body {
+    background-color:#F0F0F0;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+ .container {
+    width: 50%;
+    margin: 0 auto;
+}
+label {
+    display:block;
+    margin-bottom:10px;
+    color: blueviolet;
+    
+}
+input {
+    padding:10px;
+    width: 50%;
+    margin-bottom: 1em;
+}
+button {
+    margin: 2em 4em;
+    padding: 1em 4em;
+    display:block;
+    background-color:yellowgreen;
+    text-decoration-color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    
+    
+}
+
+#instructor {
+    padding:1em;
+    background-color:tomato;
+    margin: 1em 0;
+    background:rgb(50, 205, 159);
+}
+#loader{
+
+    width:50px;
+    display:none;
+    background:black;
+}
+h2 {
+    border-style:double;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: blue;
+}
+img {
+    border: 4px solid rgb(187, 9, 9);
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    border-inline-end-color: slateblue;
+    z-index: -1;
+}
+
